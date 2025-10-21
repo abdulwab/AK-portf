@@ -15,7 +15,7 @@ services:
       - wpnet
 
   wordpress:
-    image: wordpress:6.5-php8.1-fpm
+    image: wordpress:6.5-php8.1-apache
     depends_on:
       - db
     ports:
